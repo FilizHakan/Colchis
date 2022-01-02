@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <title>Web Development Tech Challenge</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+    <nav class="navbar">
+      <div>
+        <img src="assets/logo.svg" alt="Logo" class="logo" />
+      </div>
+      <ul class="nav-list">
+        <li class="list-item"><a href="index.html">Home</a></li>
+        <li class="list-item"><a href="royal-family.html">Royal Family</a></li>
+        <li class="list-item"><a href="assets.html">Royal Assets</a></li>
+        <li class="list-item"><a href="contact.html">Contact Us</a></li>
+      </ul>
+      <div>
+        <form class="searchbar">
+          <label for="search">Search</label>
+          <input id="search" type="search" pattern=".*\S.*" required />
+          <span class="caret"></span>
+        </form>
+      </div>
+    </nav>
+    <section id="crown">
+      <h1>The royals</h1>
+    </section>
+    <section id="royal-family">
+      <h2>The Royal family</h2>
+    </section>
+    <div class="flex-container">
+      <div>
+        <img
+          src="assets/king.png"
+          alt="King"
+          class="king"
+          width="500"
+          height="300"
+        />
+        <p>King Aeetes</p>
+      </div>
+
+      <div>
+        <img
+          src="assets/queen.png"
+          alt="queen"
+          class="queen"
+          width="500"
+          height="300"
+        />
+        <p>Queen Idyia</p>
+      </div>
+    </div>
+
+    <footer>
+      <div id="contact_us">
+        <h3>Contact us</h3>
+        <p>333 Heaven Road</p>
+        <p>Kingdom of Colchidius</p>
+        <p>
+          <a href="mailto:colchidius@kingdommail.com"
+            >colchisdius@kingdommail.com</a
+          >
+        </p>
+        <p><a href="tel:+333495465456">+333 495 465 456</a></p>
+      </div>
+      <div id="social_media">
+        <h3>Follow the kingdom</h3>
+        <div class="social">
+          <a href="#" class="fa fa-facebook"></a>
+          <a href="#" class="fa fa-twitter"></a>
+          <a href="#" class="fa fa-instagram"></a>
+          <a href="#" class="fa fa-youtube"></a>
+          <a href="#" class="fa fa-skype"></a>
+          <a href="#" class="fa fa-snapchat-ghost"></a>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
